@@ -119,6 +119,7 @@
     <Content Include="images\client-5.png" />
     <Content Include="images\client-6.png" />
     <Content Include="images\client-7.png" />
+    <Content Include="images\customIcon.ico" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\pexels-brandon-phan-1085542.jpg" />
     <Content Include="images\pexels-karolina-grabowska-4386433.jpg" />
