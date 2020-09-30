@@ -32,7 +32,7 @@
 1. Fonts
 ============================================================================= */
 /* Font Awesome icons font */
-@import url('../fonts/fontawesome-free/css/all.min.css'); /* Full icons list: https://fontawesome.com/icons?d=gallery&m=free */
+@import url('../fonts/all.min.css'); /* Full icons list: https://fontawesome.com/icons?d=gallery&m=free */
 
 /* Linearicons Font */
 @import url('Linearicons-Free.css'); /* Full icons list: https://linearicons.com/free */
@@ -804,7 +804,7 @@ blockquote {
 }
 
 .site-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   font-style: normal;
   line-height: 1.2em;
@@ -1796,7 +1796,7 @@ blockquote {
 }
 
 .lm-info-block h4 {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
 }
 /* /Contact info */
