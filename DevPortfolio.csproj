@@ -125,6 +125,8 @@
     <Content Include="images\customIcon.ico" />
     <Content Include="images\DrewTestimonial.jpg" />
     <Content Include="images\favicon.ico" />
+    <Content Include="images\FindIntersection.jpg" />
+    <Content Include="images\Fizzbuzz.jpg" />
     <Content Include="images\JasonTestimonial.jpg" />
     <Content Include="images\JavascriptBlogPic.png" />
     <Content Include="images\NetlifyBlogPic.jpg" />
@@ -133,9 +135,13 @@
     <Content Include="images\pexels-karolina-grabowska-4386476.jpg" />
     <Content Include="images\photo.jpg" />
     <Content Include="images\sp_photo.jpg" />
+    <Content Include="images\SumOfAllFears.jpg" />
+    <Content Include="images\SunsetHills.jpg" />
+    <Content Include="images\TacocaT.jpg" />
     <Content Include="images\testimonial-1.jpg" />
     <Content Include="images\testimonial-2.jpg" />
     <Content Include="images\testimonial-3.jpg" />
+    <Content Include="images\TreeConstructor.jpg" />
     <Content Include="images\VisualStudioBlogPic.png" />
     <Content Include="index.html" />
     <Content Include="scripts\bootstrap.min.js" />
