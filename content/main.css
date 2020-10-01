@@ -1450,6 +1450,9 @@ blockquote {
 .portfolio-grid.five-columns figure {
   width: 20%;
 }
+.portfolio-grid.six-columns-bottom figure{
+    width: 16.66%
+}
 
 .portfolio-grid img {
   position: relative;
