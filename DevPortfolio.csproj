@@ -97,7 +97,7 @@
     <Content Include="images\CrossPlatformBlogPicR.png" />
     <Content Include="images\customIcon.ico" />
     <Content Include="images\DrewTestimonial.jpg" />
-    <Content Include="images\favicon.ico" />
+    <Content Include="favicon.ico" />
     <Content Include="images\FindIntersection.jpg" />
     <Content Include="images\Fizzbuzz.jpg" />
     <Content Include="images\JasonTestimonial.jpg" />

@@ -3242,7 +3242,7 @@ blockquote p {
 
   .timeline-second-style .left-part {
     width: 100%;
-    display: block;
+    /*display: block;*/
     padding-left: 25px;
     min-height: 100%;
     text-align: left;
