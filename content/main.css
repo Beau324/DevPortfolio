@@ -1618,6 +1618,7 @@ blockquote {
   position: relative;
   padding: 0;
   background: #353535;
+
 }
 
 .blog-card .post-image {
@@ -1627,6 +1628,7 @@ blockquote {
 
 .blog-card .media-block {
   overflow: hidden;
+
 }
 
 .blog-card .media-block img {
