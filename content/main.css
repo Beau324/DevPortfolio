@@ -646,9 +646,10 @@ blockquote {
   min-height: 100%;
 }
 
-.section-inner.start-page-full-width .inner-content .fill-block {
-  background-image: url(../images/IMG_9470.JPG);
-}
+    .section-inner.start-page-full-width .inner-content .fill-block {
+        
+        background-image: url('../images/IMG_9470(S).JPG');
+    }
 .section-inner.start-page-full-width .inner-content .fill-block {
   position: relative;
   height: 100%;
@@ -791,8 +792,8 @@ blockquote {
 }
 
 .my-photo img {
-  height: 80px;
-  max-height: 80px;
+  /*height: 80px;
+  max-height: 80px;*/
   width: 80px;
 }
 
