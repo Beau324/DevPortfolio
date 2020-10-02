@@ -2822,6 +2822,7 @@ blockquote p {
     right: 0;
     height: 50px;
     z-index: 1002;
+    margin: -26px 0px;
   }
 
   .mobile-logo-container {
