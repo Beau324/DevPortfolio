@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog-post-1.html" />
     <Content Include="Blog.html" />
     <Content Include="FinancialPortalAPI.html" />
     <Content Include="FinancialPortalMVC.html" />
