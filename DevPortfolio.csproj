@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Blog.html" />
+    <Content Include="FinancialPortalAPI.html" />
+    <Content Include="FinancialPortalMVC.html" />
     <Content Include="fonts\all.min.css" />
     <Content Include="content\animate.css" />
     <Content Include="content\animations.css" />
@@ -145,6 +148,7 @@
     <Content Include="images\TreeConstructor.jpg" />
     <Content Include="images\VisualStudioBlogPic.png" />
     <Content Include="index.html" />
+    <Content Include="bugTracker.html" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\imagesloaded.pkgd.min.js" />
     <Content Include="scripts\jquery-1.12.4.min.js" />

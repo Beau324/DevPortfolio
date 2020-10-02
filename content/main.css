@@ -1273,7 +1273,7 @@ blockquote {
 
 
 /* Skills */
-.skills-info.skills-second-style h4 {
+/*.skills-info.skills-second-style h4 {
   font-size: 13px;
   line-height: 1.1em;
   position: relative;
@@ -1322,8 +1322,8 @@ blockquote {
   height: 8px;
   padding: 0;
 }
-
-.skill-percentage.skill-1 {
+*/
+/*.skill-percentage.skill-1 {
   width: 95%;
 }
 .skill-percentage.skill-2 {
@@ -1352,7 +1352,7 @@ blockquote {
 }
 .skill-percentage.skill-10 {
   width: 80%;
-}
+}*/
 /* /Skills */
 
 
@@ -3480,5 +3480,8 @@ body {
 }
 .blog-masonry {
   margin-bottom: 0;
+}
+.ajax-image-size{
+    height:100%;
 }
 /* /V2.4 - 03 July 2019 */
