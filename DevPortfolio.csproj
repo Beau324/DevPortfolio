@@ -109,6 +109,8 @@
     <Content Include="images\pexels-ivan-samkov-4240497.jpg" />
     <Content Include="images\pexels-karolina-grabowska-4386433.jpg" />
     <Content Include="images\pexels-karolina-grabowska-4386476.jpg" />
+    <Content Include="images\photo.jpg" />
+    <Content Include="images\sp_photo.jpg" />
     <Content Include="images\SumOfAllFears.jpg" />
     <Content Include="images\SunsetHills.jpg" />
     <Content Include="images\TacocaT.jpg" />
