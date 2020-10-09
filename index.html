@@ -46,7 +46,7 @@
         <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content clearfix">
                 <div class="my-photo">
-                    <img src="images/IMG_9470.JPG" alt="image"/>
+                    <img src="images/IMG_9470.JPG" alt="image" />
                 </div>
 
                 <div class="site-title-block">
@@ -65,6 +65,9 @@
                         </li>
                         <li>
                             <a class="pt-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="pt-trigger" href="#challenges">Challenges</a>
                         </li>
                         <li>
                             <a class="pt-trigger" href="#blog">Blog</a>
@@ -94,7 +97,7 @@
             <div class="mobile-logo-container">
                 <div class="mobile-header-image">
                     <a href="#">
-                        <img src="images/IMG_9470.JPG" alt="image"/>
+                        <img src="images/IMG_9470.JPG" alt="image" />
                     </a>
                 </div>
                 <div class="mobile-site-title"><a href="#">Beau Cunningham</a></div>
@@ -457,7 +460,6 @@
                                                     <h4 class="name">Bug Tracker</h4>
                                                     <span class="category">Bug Tracker</span>
                                                 </figure>
-
                                                 <figure class="item standard" data-groups='["category_all", "category_media"]'>
                                                     <div class="portfolio-item-img">
                                                         <img src="images/pexels-karolina-grabowska-4386433.jpg" alt="Financial Portal MVC" title="" />
@@ -466,7 +468,6 @@
                                                     <h4 class="name">Financial Portal MVC</h4>
                                                     <span class="category">Financial Portal MVC</span>
                                                 </figure>
-
                                                 <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
                                                     <div class="portfolio-item-img">
                                                         <img src="images/pexels-karolina-grabowska-4386476.jpg" alt="Financial Portal API" title="" />
@@ -483,80 +484,206 @@
                                                     <h4 class="name">Personal Blog</h4>
                                                     <span class="category">Personal Blog</span>
                                                 </figure>
-
                                             </div>
-
-
                                         </div>
                                         <!-- /Portfolio Content -->
                                     </div>
                                 </div>
-                                <div class=" row">
-                                    <div class="col-xs-12 col-sm-12">
-                                        <div class=" portfolio-grid six-columns-bottom">
-                                            <figure class="item standard" data-groups='["category_all", "category_media"]'>
-                                                <div class="portfolio-item-img">
-                                                    <img src="images/Fizzbuzz.jpg" alt="Fizzbuzz" title="" />
-                                                    <a href="portfolio-1.html" class="ajax-page-load"></a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pt-page" id="challenges">
+                        <div class="section-inner custom-page-content">
+                            <div class="section-title-block second-style">
+                                <h2 class="section-title">Coding Challenges</h2>
+                                <h5 class="section-description">Mini-sites</h5>
+                            </div>
+                            <div class=" row">
+                                <div class="col-xs-12 col-sm-12">
+                                    <div class=" portfolio-grid three-columns">
+                                        <figure class="item standard" data-groups='["category_all", "category_media"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="images/Fizzbuzz.jpg" alt="Fizzbuzz" title="" />
+                                                <a href="" data-toggle="modal" data-target="#fbModal"></a>
+                                            </div>
+                                            <h4 class="name">Fizzbuzz</h4>
+                                            <span class="category">Coding Challenge</span>
+                                        </figure>
+                                        <div id="fbModal" class="modal" role="dialog">
+                                            <div class="modal-dialog">
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title modal-text">Fizzbuzz</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/Fizzbuzz.jpg" alt="Fizzbuzz" title="" />
+                                                        <p class="modal-text">The "Fizz-Buzz test" is an interview question designed to help filter out the 99.5% of programming job candidates who can't seem to program their way out of a wet paper bag. The text of the programming assignment is as follows:</p>
+                                                        <ul class="modal-text">
+                                                            <li>Write a program that prints the numbers from 1 to 100.</li>
+                                                            <li>For multiples of three print “Fizz” instead of the number.</li>
+                                                            <li>For the multiples of five print “Buzz” instead of the number.</li>
+                                                            <li>For numbers which are multiples of both three and five print “FizzBuzz”.</li>
+                                                        </ul>
+                                                        <a class="btn" href="https://beau-cunningham-fizzbuzz.netlify.app" target="_blank">Demo</a>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <h4 class="name">Fizzbuzz</h4>
-                                                <span class="category">Coding Challenge</span>
-                                            </figure>
 
-                                            <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
-                                                <div class="portfolio-item-img">
+                                            </div>
+                                        </div>
+                                        <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="images/SunsetHills.jpg" alt="Sunset Hills" title="" />
+                                                <a href="" data-toggle="modal" data-target="#shModal"></a>
+                                            </div>
+                                            <h4 class="name">Sunset Hills</h4>
+                                            <span class="category">Coding Challenge</span>
+                                        </figure>
+                                        <div id="shModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
 
-                                                    <img src="images/SunsetHills.jpg" alt="Sunset Hills" title="" />
-                                                    <a class="lightbox" title="Sunset Hills" href="images/5.jpg"></a>
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">Sunset Hills</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/SunsetHills.jpg" />
+                                                        <p>Sunset Hills is a coding challenge that was created by the founder of my school, it demonstrates array manipulation and looping.</p>
+                                                        <ul>
+                                                            <li>Takes in user inputs.</li>
+                                                            <li>Iterate through the array.</li>
+                                                            <li>Compare the index to the ones before it.</li>
+                                                            <li>Display what buildings will be able to see the sunset.</li>
+                                                        </ul>
+                                                        <a class="btn" href="https://beau-cunningham-sunsethills.netlify.app" target="_blank">Demo</a>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <h4 class="name">Sunset Hills</h4>
-                                                <span class="category">Coding Challenge</span>
-                                            </figure>
 
-                                            <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
-                                                <div class="portfolio-item-img">
+                                            </div>
+                                        </div>
+                                        <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="images/TacocaT.jpg" alt="TacocaT" title="" />
+                                                <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="TacocaT"></a>
+                                            </div>
+                                            <h4 class="name">TaoccaT</h4>
+                                            <span class="category">Coding Challenge</span>
+                                        </figure>
+                                        <div id="pModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
 
-                                                    <img src="images/TacocaT.jpg" alt="TacocaT" title="" />
-                                                    <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="TacocaT"></a>
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Some text in the modal.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <h4 class="name">TaoccaT</h4>
-                                                <span class="category">Coding Challenge</span>
-                                            </figure>
 
-                                            <figure class="item standard" data-groups='["category_all", "category_media"]'>
-                                                <div class="portfolio-item-img">
+                                            </div>
+                                        </div>
+                                        <figure class="item standard" data-groups='["category_all", "category_media"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="images/SumOfAllFears.jpg" alt="Sum of All Fears" title="" />
+                                                <a href="portfolio-1.html" class="ajax-page-load"></a>
+                                            </div>
+                                            <h4 class="name">Sum of All Fears</h4>
+                                            <span class="category">Coding Challenge</span>
+                                        </figure>
+                                        <div id="sumModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
 
-                                                    <img src="images/SumOfAllFears.jpg" alt="Sum of All Fears" title="" />
-                                                    <a href="portfolio-1.html" class="ajax-page-load"></a>
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Some text in the modal.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <h4 class="name">Sum of All Fears</h4>
-                                                <span class="category">Coding Challenge</span>
-                                            </figure>
 
-                                            <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
-                                                <div class="portfolio-item-img">
+                                            </div>
+                                        </div>
+                                        <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="images/TreeConstructor.jpg" alt="Tree Constructor" title="" />
+                                                <a class="lightbox" title="Tree Constructor" href="images/5.jpg"></a>
+                                            </div>
+                                            <h4 class="name">Tree Constructor</h4>
+                                            <span class="category">Coding Challenge</span>
+                                        </figure>
+                                        <div id="tcModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
 
-                                                    <img src="images/TreeConstructor.jpg" alt="Tree Constructor" title="" />
-                                                    <a class="lightbox" title="Tree Constructor" href="images/5.jpg"></a>
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Some text in the modal.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <h4 class="name">Tree Constructor</h4>
-                                                <span class="category">Coding Challenge</span>
-                                            </figure>
 
-                                            <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
-                                                <div class="portfolio-item-img">
+                                            </div>
+                                        </div>
+                                        <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="images/FindIntersection.jpg" alt="Find Intersection" title="" />
+                                                <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="Find Intersection"></a>
+                                            </div>
+                                            <h4 class="name">Find Intersection</h4>
+                                            <span class="category">Coding Challenge</span>
+                                        </figure>
+                                        <div id="fiModal" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
 
-                                                    <img src="images/FindIntersection.jpg" alt="Find Intersection" title="" />
-                                                    <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="Find Intersection"></a>
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Modal Header</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Some text in the modal.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <h4 class="name">Find Intersection</h4>
-                                                <span class="category">Coding Challenge</span>
-                                            </figure>
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </section>
                     <!-- /Portfolio Subpage -->
                     <!-- Blog Subpage -->
@@ -874,5 +1001,6 @@
                         alert(JSON.stringify(err));
                     });
             });</script>
+
 </body>
 </html>
