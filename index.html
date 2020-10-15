@@ -610,7 +610,7 @@
                                         <figure class="item standard" data-groups='["category_all", "category_media"]'>
                                             <div class="portfolio-item-img">
                                                 <img src="images/SumOfAllFears.jpg" alt="Sum of All Fears" title="" />
-                                                <a href="portfolio-1.html" class="ajax-page-load"></a>
+                                                <a data-toggle="modal" data-target="#comingSoonModal"></a>
                                             </div>
                                             <h4 class="name">Sum of All Fears</h4>
                                             <span class="category">Coding Challenge</span>
@@ -637,7 +637,7 @@
                                         <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                                             <div class="portfolio-item-img">
                                                 <img src="images/TreeConstructor.jpg" alt="Tree Constructor" title="" />
-                                                <a class="lightbox" title="Tree Constructor" href="images/5.jpg"></a>
+                                                <a data-toggle="modal" data-target="#comingSoonModal"></a>
                                             </div>
                                             <h4 class="name">Tree Constructor</h4>
                                             <span class="category">Coding Challenge</span>
@@ -664,7 +664,7 @@
                                         <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
                                             <div class="portfolio-item-img">
                                                 <img src="images/FindIntersection.jpg" alt="Find Intersection" title="" />
-                                                <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="Find Intersection"></a>
+                                                <a data-toggle="modal" data-target="#comingSoonModal"></a>
                                             </div>
                                             <h4 class="name">Find Intersection</h4>
                                             <span class="category">Coding Challenge</span>
@@ -695,6 +695,27 @@
 
                     </section>
                     <!-- /Portfolio Subpage -->
+                    <div id="comingSoonModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Coming soon</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>This item hasn't been implemented yet.</p>
+                                    <img src="images/comingSoon.png" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                     <!-- Blog Subpage -->
                     <section class="pt-page" id="blog">
                         <div class="section-inner custom-page-content">
@@ -713,9 +734,9 @@
                                                 <div class="blog-card">
                                                     <div class="media-block">
                                                         <div class="category">
-                                                            <a href="#" title="View all posts in UI">UI</a>
+                                                            <a href="" title="View all posts in UI">UI</a>
                                                         </div>
-                                                        <a href="blog-post-1.html" target=" _ blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
 
                                                             <img src="images/BootStrapBlogPicR.jpg" class="size-blog-masonry-image-two-c" alt="The Bootstrap Grid System" title="" />
                                                             <div class="mask"></div>
@@ -737,7 +758,7 @@
                                                         <div class="category">
                                                             <a href="#" title="Continuous Deployment on Netlify">E-Commerce</a>
                                                         </div>
-                                                        <a href="blog-post-1.html" target="_blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
 
                                                             <img src="images/NetlifyBlogPicR.jpg" class="size-blog-masonry-image-two-c " alt="Continuous Deployment on Netlify" title="" />
                                                             <div class="mask"></div>
@@ -759,7 +780,7 @@
                                                         <div class="category">
                                                             <a href="#" title="Chrome's Debugger">E-Commerce</a>
                                                         </div>
-                                                        <a href="blog-post-1.html" target="_blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
 
                                                             <img src="images/ChromeDebuggerBlogR.png" class="size-blog-masonry-image-two-c" alt="Chrome's Debugger" title="" />
                                                             <div class="mask"></div>
@@ -781,7 +802,7 @@
                                                         <div class="category">
                                                             <a href="#" title="Visual Studio's IDE">Design</a>
                                                         </div>
-                                                        <a href="blog-post-1.html" target="_blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
 
                                                             <img src="images/VisualStudioBlogPicR.png" class="size-blog-masonry-image-two-c" alt="Visual Studio's IDE" title="" />
                                                             <div class="mask"></div>
@@ -789,7 +810,7 @@
                                                     </div>
                                                     <div class="post-info">
                                                         <div class="post-date">01 Oct, 2020</div>
-                                                        <a href="blog-post-1.html" target="_blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
                                                             <h4 class="blog-item-title">Visual Studio's IDE</h4>
                                                         </a>
                                                     </div>
@@ -803,7 +824,7 @@
                                                         <div class="category">
                                                             <a href="#" title="View all posts in UI">UI</a>
                                                         </div>
-                                                        <a href="blog-post-1.html" target="_blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
 
                                                             <img src="images/CrossPlatformBlogPicR.png" class="size-blog-masonry-image-two-c" alt="Why You Should Develop for Multiple Devices" title="" />
                                                             <div class="mask"></div>
@@ -825,7 +846,7 @@
                                                         <div class="category">
                                                             <a href="#" title="View all posts in Design">Design</a>
                                                         </div>
-                                                        <a href="blog-post-1.html" target="_blank">
+                                                        <a data-toggle="modal" data-target="#comingSoonModal">
 
                                                             <img src="images/JavascriptBlogPicR.png" class="size-blog-masonry-image-two-c" alt="Working With Javascript" title="" />
                                                             <div class="mask"></div>

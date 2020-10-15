@@ -93,6 +93,7 @@
     <Content Include="images\ChromeBlogPic.jpg" />
     <Content Include="images\ChromeBlogPicR.jpg" />
     <Content Include="images\ChromeDebuggerBlogR.png" />
+    <Content Include="images\comingSoon.png" />
     <Content Include="images\CrossPlatformBlogPic.png" />
     <Content Include="images\CrossPlatformBlogPicR.png" />
     <Content Include="images\customIcon.ico" />
