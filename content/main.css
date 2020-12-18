@@ -620,7 +620,7 @@ blockquote {
   height: auto;
   width: 100%;
   min-width: 100%;
-  min-height: 100%;
+  /*min-height: 100%;*/
   background-color: transparent;
   padding: 50px 70px 70px;
   background-color: #222;
